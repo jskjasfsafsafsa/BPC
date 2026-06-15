@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    
+    <!-- Background Container - Modern Rounded Squircle with Premium Pure Black Theme (#050807) -->
+    <path
+        android:pathData="M16,4 L84,4 C90.6,4 96,9.4 96,16 L96,84 C96,90.6 90.6,96 84,96 L16,96 C9.4,96 4,90.6 4,84 L4,16 C4,9.4 9.4,4 16,4 Z"
+        android:fillColor="#050807" />
+
+    <!-- Outer Decorative Premium Framing Rings (Representing Security and Circular Flow of Money in Golden Yellow/Green glow) -->
+    <path
+        android:pathData="M50,8 C73.1,8 92,26.9 92,50 C92,73.1 73.1,92 50,92 C26.9,92 8,73.1 8,50 M50,11 C71.5,11 89,28.5 89,50 C89,71.5 71.5,89 50,89 C28.5,89 11,71.5 11,50"
+        android:fillColor="#241E0A" /> <!-- Subtle Dark Golden shadow ring -->
+
+    <!-- Core Structural Spine of the 'K' (White - Pure Trust & Strength) -->
+    <path
+        android:pathData="M32,24 C32,22.9 32.9,22 34,22 L38,22 C39.1,22 40,22.9 40,24 L40,76 C40,77.1 39.1,78 38,78 L34,78 C32.9,78 32,77.1 32,76 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- LENDING ARROW (Top loop of the 'K' curving outwards and upwards - Emerald Green #00B86B) -->
+    <!-- Curved flow stroke -->
+    <path
+        android:pathData="M40,50 C46.5,41.5 54.5,35 68,35 C70,35 71.5,36 72,37.5 L73,40.5 C73.5,42 72.5,43 71,43 C61.5,43 54.5,48.5 47,56 Z"
+        android:fillColor="#00B86B" /> <!-- Pure Emerald Green -->
+    <!-- Arrowhead pointing up and out -->
+    <path
+        android:pathData="M65,30 L76,35 L71,46 Z"
+        android:fillColor="#00B86B" />
+
+    <!-- REPAYMENT ARROW (Bottom loop of the 'K' curling back and in - Vibrant Red #EF4444) -->
+    <!-- Curved flow stroke from down and out back to the center -->
+    <path
+        android:pathData="M40,50 C46.5,58.5 54.5,65 68,65 C70,65 71.5,64 72,62.5 L73,59.5 C73.5,58 72.5,57 71,57 C61.5,57 54.5,51.5 47,44 Z"
+        android:fillColor="#EF4444" /> <!-- Vibrant repayment red -->
+    <!-- Arrowhead pointing back towards the spine, completing the loop -->
+    <path
+        android:pathData="M51,41 C47,44 44.5,48 44,52 L54,49 Z"
+        android:fillColor="#EF4444" />
+
+    <!-- CENTRED COIN SYMBOL IN THE LOWER INTERSECTION (Inspiring wealth accumulation & capital circulation) -->
+    <!-- Coin backdrop (Scaled up and intensified for instant fintech recognition in Golden Yellow) -->
+    <path
+        android:pathData="M52,50 m-14,0 a14,14 0 1,1 28,0 a14,14 0 1,1 -28,0"
+        android:fillColor="#050807" />
+    <path
+        android:pathData="M52,50 m-12,0 a12,12 0 1,1 24,0 a12,12 0 1,1 -24,0"
+        android:fillColor="#FBBF24" /> <!-- Golden Yellow Outer Coin Ring -->
+    <path
+        android:pathData="M52,50 m-9,0 a9,9 0 1,1 18,0 a9,9 0 1,1 -18,0"
+        android:fillColor="#FFFFFF" /> <!-- White inner plate for supreme legibility -->
+        
+    <!-- Highly recognizable thick vector money symbol ($ / Currency mark) in intense Repayment Red & Green -->
+    <path
+        android:pathData="M52,43 L52,57"
+        android:strokeColor="#EF4444"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M56.5,46.5 C55,44.5 49,44.5 47.5,46.5 C46.5,48 48,50 52,50.5 C56,51 57.5,53 56.5,54.5 C55,56.5 49,56.5 47.5,54.5"
+        android:strokeColor="#00B86B"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

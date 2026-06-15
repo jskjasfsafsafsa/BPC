@@ -1,0 +1,6 @@
+{
+  "name": "Krediya",
+  "description": "Application professionnelle pour la gestion des microcrédits en Afrique. Destinée aux bailleurs, microfinanciers et collecteurs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
